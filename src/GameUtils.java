@@ -23,6 +23,7 @@ public class GameUtils {
     public static void printGameMoves(String input, int cpuMove) {
         if (input.trim().equalsIgnoreCase(Constants.ROCK)) {
             switch (cpuMove) {
+                //compares player's move to cpu move (1 = rock, 2 = paper, 3 = scissors)
                 case (1):
                     System.out.println(Constants.CPU_ROCK);
                     System.out.println(Constants.TIE);

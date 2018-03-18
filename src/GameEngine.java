@@ -12,6 +12,7 @@ public class GameEngine {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
+        //initial prompt for user move
         GameUtils.printEnterMove();
         String input = scanner.nextLine();
 
@@ -31,6 +32,4 @@ public class GameEngine {
         }
         System.exit(0);
     }
-
-
 }
