@@ -21,11 +21,12 @@ public class GameEngine {
                 System.exit(0);
             }
 
+            //runs and prints results of round
             int cpuMove = GameUtils.genRandomInt();
             GameUtils.printGameMoves(input, cpuMove);
-            GameUtils.printEnterMove();
 
             //takes in new input for next move
+            GameUtils.printEnterMove();
             input = scanner.nextLine();
         }
         System.exit(0);
