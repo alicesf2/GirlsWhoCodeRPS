@@ -5,7 +5,7 @@ public class GameUtils {
      * @return true if the user typed quit, false if not
      */
     public static boolean isQuit(String input) {
-        return input.equalsIgnoreCase(Constants.QUIT);
+        return input.trim().equalsIgnoreCase(Constants.QUIT);
     }
 
     /**
